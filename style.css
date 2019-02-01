@@ -56,10 +56,13 @@ table  tr #first{
     margin-right: 20px;
 } */
 body{
-    /* text-align: center; */
-   align-content: center; 
-   padding-left: 25%;
-   padding-top: 5%;
+    /*text-align: center; */
+
+   /* align-content: center;  */
+   /* padding-left: 25%;
+   padding-top: 5%; */
+   
+   
    background: linear-gradient(to right,#e01111,#0a0a54);}
 
 *{
@@ -74,16 +77,27 @@ body{
     background: rgb(65, 87, 102);
     color: white;
 }
-
+.main{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); */
+    max-width: 300px;
+    margin: auto;
+    padding-top: 10%;
+}
 
 .button:hover{
-    background-color: rgb(22, 36, 44);
+    background-color: rgb(53, 80, 95);
     /* height: 71px;
     width: 71px; */
 }
 .textview {
+    /* align-content: center; */
+    margin-left: 75px;
     width: 290px;
     height: 50px;
     margin: 5px;
     font-size: 30px;
+    
 }
